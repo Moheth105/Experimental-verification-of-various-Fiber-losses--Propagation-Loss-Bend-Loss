@@ -4,17 +4,15 @@
 ## AIM
 To measure propagation loss & bending losses for two different wavelengths in plastic Fiber provided with the kit.
 
----
-
 ## EQUIPMENTS REQUIRED
-- Link-B Kit with power supply  
-- Patch chords  
+
+- Link-B Kit with power supply - Patch chords  
 - 20MHz Dual Channel Oscilloscope  
 - 1 MHz Function Generator  
 - 1 Meter Fiber Cable  
 
 ---
-
+ 
 ## THEORY
 Optical Fibers are available in different varieties of materials. These materials are usually selected by taking into account their absorption characteristics for different wavelengths of light.  
 
@@ -47,10 +45,7 @@ Since the signal in Optical Fiber is transmitted in the form of light (different
 10. Connect **OUT of Analog Buffer → TX IN of Transmitter**.  
 11. Loosen cap of **SFH756V (660nm)**, insert 1m fiber, then tighten.  
 12. Connect other end of fiber to **SFH350V (Photo Transistor Detector)** carefully.  
-13. Observe detected signal at **ANALOG OUT** on oscilloscope. Adjust **P2** so signal amplitude = 2Vpp.  
-
-14. Measure peak value at ANALOG OUT = **V1**.  
-15. Replace 1m fiber with 3m fiber (no other changes). Measure peak value = **V2**.  
+13. Observe detected signal at **ANALOG OUT** on oscilloscope. 
 
 **Formula:**  
 \[
@@ -62,8 +57,6 @@ Where:
 - \(L2\) = fiber length for V2  
 
 This \(a\) is for **660nm wavelength**.  
-
----
 
 ### For 950nm Wavelength
 1. Set switch **SW9 → TX2 position**.  
@@ -88,17 +81,11 @@ This \(a\) is for **950nm wavelength**.
 1. Remove fiber from SFH450V (950nm) & SFH350V.  
 2. Insert 1m fiber between **SFH756V (660nm)** & **SFH350V**.  
 3. Bend fiber in a loop and measure amplitude of received signal.  
-4. Reduce loop diameter gradually to ~2 cm (not less than 1 cm).  
-5. Record output voltage readings.  
-6. Plot graph: **Received signal amplitude vs. Loop diameter**.  
-
----
-
+  
 ## TABULATION
-
-![WhatsApp Image 2026-02-05 at 10 32 38 PM](https://github.com/user-attachments/assets/7620bb7c-cf0c-420c-96e1-db59e0d7d113)
-
 ---
+![WhatsApp Image 2026-02-14 at 1 28 22 PM](https://github.com/user-attachments/assets/ea86232e-5dbb-4599-b513-7ed6822dda8a)
+
 
 ## RESULT
 - Propagation loss and bending losses for **660nm** and **950nm** wavelengths were measured.  
